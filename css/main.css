@@ -1,0 +1,78 @@
+body {
+    background-color: #666;
+    font-weight: lighter;
+}
+
+#titleholder{
+    padding: 15px;
+    margin: .75rem 0;
+    background-color: #c7e6fd
+}
+
+#title-box{
+    height: 140px;
+}
+
+#title{
+    text-align: center;
+}
+
+.underline {
+    border-bottom: 1px solid #999999;
+    padding-bottom: 10px
+}
+
+.blue-box {
+    color: #00b0ff
+}
+
+.image{
+    height: 185px;
+    margin-bottom: .75rem;
+    background-size: cover;
+}
+
+.text-col {
+    height: 577.75px;
+    padding-left: 1rem
+}
+
+ul{
+    padding-left: 1.5rem
+}
+
+li{
+    color: #6898e4;
+}
+
+li span{
+    color: black
+}
+
+#img-1{
+    background-image: url('../img/outside.jpg');
+}
+#img-2{
+    background-image: url('../img/main-office-2.jpg');
+}
+#img-3{
+    background-image: url('../img/breakout.jpg');
+}
+
+@media only screen and (max-width: 600px) {
+    #titleholder{
+        margin-bottom: 0;
+    }
+    #img-1{
+        height: 330px
+    }
+    #img-2, #img-3{
+        display: none
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #right-strip{
+        padding-left: 0
+    }
+}
