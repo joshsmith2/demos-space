@@ -1,5 +1,5 @@
 body {
-    background-color: #666;
+    background: url('../img/mooning.png');
 }
 
 .raleway {
@@ -39,8 +39,9 @@ body {
 }
 
 .text-col {
-    height: 577.75px;
-    padding-left: 1rem
+    min-height: 577.75px!important;
+    padding-left: 1rem;
+    overflow: auto;
 }
 
 ul{
@@ -64,6 +65,8 @@ li span{
 #img-3{
     background-image: url('../img/breakout.jpg');
 }
+
+
 
 @media only screen and (max-width: 600px) {
     #titleholder{
