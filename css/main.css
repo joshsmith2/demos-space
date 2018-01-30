@@ -1,12 +1,15 @@
 body {
     background-color: #666;
-    font-weight: lighter;
+}
+
+.raleway {
+    font-family: 'Raleway', 'Roboto', sans-serif;
 }
 
 #titleholder{
     padding: 15px;
     margin: .75rem 0;
-    background-color: #c7e6fd
+    background-color: #c7e6fd;
 }
 
 #title-box{
@@ -15,6 +18,9 @@ body {
 
 #title{
     text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 5rem;
 }
 
 .underline {
